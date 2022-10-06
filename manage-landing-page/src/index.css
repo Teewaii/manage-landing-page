@@ -14,6 +14,36 @@ code {
     monospace;
 }
 
+@layer components {
+  .btn {
+    @apply rounded-full py-[12px] px-[35px] text-[white]  bg-[#f25f3a];
+  }
+
+  a {
+    @apply text-[#1d1e25]
+  }
+
+  h1 {
+    @apply text-[#1d1e25] font-[500] text-[2.5rem] leading-[3.5rem]
+  }
+
+  h2 {
+    @apply text-[#1d1e25] font-[500] text-[1.8rem] leading-[3.5rem]
+  }
+
+  .body {
+    @apply text-[1.11rem] leading-[1.8rem] text-DarkGrayishBlue
+  }
+
+  .footerLink {
+    @apply text-[white] text-[19px]
+  }
+
+  /* span {
+    @apply text-[.9rem] leading-[1.8rem] text-GrayishBlue
+  } */
+}
+
 
 @tailwind base;
 @tailwind components;

@@ -9,18 +9,19 @@ module.exports = {
       DarkBlue: '	#242d52',
       DarkGrayishBlue: '	#9095a7',
       VeryDarkBlue: '#1d1e25',
-      VeryPaleRed: '	#ffefeb',
-      VaryLightGray: '#fafafa'
+      VeryPaleRed: '#ffefeb',
+      VeryLightGray: '#fafafa'
     },
 
     container:{
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        lg: '3rem',
+       
+       
       },      
+      center:true,
     },
 
     fontFamily: {
