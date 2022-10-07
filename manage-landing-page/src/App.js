@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/About';
 import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav'
+import Testimonial from './components/testimonial/Testimonial';
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
       />
       <Hero />
       <About />
+      <Testimonial />
     </div>
   );
 }

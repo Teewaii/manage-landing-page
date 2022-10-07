@@ -15,7 +15,7 @@ export default function About() {
                 </div>
                 <div className="right flex-1  ">
                     <div className="list">
-                        <div className="track mb-[44px]">
+                        <div className="track mb-[55px] lg:mb-[44px]">
                             <div className="title h-[59px] text-left bg-VeryPaleRed flex items-center
                              mb-[20px] gap-[15px]
                             rounded-l-full lg:bg-[white] lg:gap-[27px] ">
@@ -30,7 +30,7 @@ export default function About() {
                                 smallest of details. Never lose sight of the bigger picture again.</p>
                         </div>
 
-                        <div className="advance mb-[44px]">
+                        <div className="advance mb-[55px] lg:mb-[44px]">
                             <div className="title h-[59px] text-left bg-VeryPaleRed flex items-center
                              mb-[20px] gap-[15px]
                             rounded-l-full lg:bg-[white] lg:gap-[27px] ">
@@ -46,7 +46,7 @@ export default function About() {
                         </div>
 
 
-                        <div className="advance mb-[44px]">
+                        <div className="everything mb-[75px] ">
                             <div className="title h-[59px] text-left bg-VeryPaleRed flex items-center
                              mb-[20px] gap-[15px] 
                             rounded-l-full lg:bg-[white] lg:gap-[27px] ">
@@ -62,11 +62,10 @@ export default function About() {
                             </p>
                         </div>
 
-
-                        <div className="everything"></div>
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
