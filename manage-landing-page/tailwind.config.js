@@ -4,24 +4,22 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors:{
-      BrightRed: 	'#f25f3a',
+    colors: {
+      BrightRed: '#f25f3a',
       DarkBlue: '	#242d52',
-      DarkGrayishBlue: '	#9095a7',
+      DarkGrayishBlue: '#9095a7',
       VeryDarkBlue: '#1d1e25',
       VeryPaleRed: '#ffefeb',
       VeryLightGray: '#fafafa'
     },
 
-    container:{
+    container: {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
         lg: '3rem',
-       
-       
-      },      
-      center:true,
+      },
+      center: true,
     },
 
     fontFamily: {

@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Be Vietnam Pro', 'Roboto', 'Oxygen',
@@ -16,23 +14,27 @@ code {
 
 @layer components {
   .btn {
-    @apply rounded-full py-[12px] px-[35px] text-[white]  bg-[#f25f3a];
+    @apply rounded-full py-[12px] px-[35px] text-[white] ease-in-out duration-300 bg-[#f25f3a];
   }
 
   a {
-    @apply text-[#1d1e25]
+    @apply text-[#242d52] font-[700] text-[1.05rem]
   }
 
   h1 {
-    @apply text-[#1d1e25] font-[500] text-[2.5rem] leading-[3.5rem]
+    @apply text-[#242d52] font-[500] text-[2.5rem] leading-[3.5rem]
+  }
+
+  .header {
+    @apply text-[#242d52] font-[700] text-[2rem] leading-[2.5rem]
   }
 
   h2 {
-    @apply text-[#1d1e25] font-[500] text-[1.8rem] leading-[3.5rem]
+    @apply text-[#242d52] font-[700] text-[1.1rem] leading-[1.4rem]
   }
 
   .body {
-    @apply text-[1.11rem] leading-[1.8rem] text-DarkGrayishBlue
+    @apply text-[1.28rem] leading-[2rem] text-DarkGrayishBlue
   }
 
   .footerLink {
