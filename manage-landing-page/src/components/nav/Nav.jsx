@@ -15,7 +15,7 @@ export default function Nav({ toggle, toggleMenu }) {
       <nav className=' mt-[30px] lg:mt-[30px] h-[4rem] lg:h-[6rem] flex'>
         <div className="mainNav flex justify-between items-center relative container">
           <div className="logo"><img className='cursor-pointer' src={logo} alt="logo" /></div>
-          <ul className={toggle ? 'hidden absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] bg-[white] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px] ' : 'absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] bg-[white] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px]'}>
+          <ul className={toggle ? 'hidden absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px] ' : 'absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] bg-[white] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px]'}>
             <li className='mb-[33px] lg:mb-0'><a href="#">Pricing</a></li>
             <li className='mb-[33px] lg:mb-0'><a href="#">Product</a></li>
             <li className='mb-[33px] lg:mb-0'><a href="#">About Us</a></li>

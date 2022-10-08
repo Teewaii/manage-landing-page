@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Subfooter() {
     return (
-        <div className="subfooter  bg-BrightRed pt-[90px] pb-[80px]
+        <div className="subfooter  bg-BrightRed pt-[80px] pb-[70px]
         lg:py-[62px]
         ">
             <div className='bucket container lg:flex lg:justify-between lg:items-center'>
