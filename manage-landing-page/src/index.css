@@ -17,6 +17,10 @@ code {
     @apply rounded-full py-[12px] px-[35px] text-[white] ease-in-out duration-300 bg-[#f25f3a];
   }
 
+  .btnSec {
+    @apply rounded-full py-[12px] px-[35px] text-[#f25f3a] ease-in-out duration-300 bg-[white];
+  }
+
   a {
     @apply text-[#242d52] font-[700] text-[1.05rem]
   }
