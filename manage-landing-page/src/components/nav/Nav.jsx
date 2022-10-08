@@ -11,8 +11,8 @@ export default function Nav({ toggle, toggleMenu }) {
   // }
 
   return (
-    <div >
-      <nav className=' mt-[40px] lg:mt-[50px] flex'>
+    <div className='sticky top-0 bg-[white] shadow-sm' >
+      <nav className=' mt-[30px] lg:mt-[30px] h-[4rem] lg:h-[6rem] flex'>
         <div className="mainNav flex justify-between items-center relative container">
           <div className="logo"><img className='cursor-pointer' src={logo} alt="logo" /></div>
           <ul className={toggle ? 'hidden absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] bg-[white] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px] ' : 'absolute top-[40px] left-[5%] right-[5%] flex-col font-bold rounded-[5px] bg-[white] h-fit py-[47px] lg:top-0 lg:relative lg:flex lg:flex-row gap-[33px]'}>

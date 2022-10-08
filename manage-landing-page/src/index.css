@@ -38,7 +38,7 @@ code {
   }
 
   .body {
-    @apply text-[1.28rem] leading-[2rem] text-DarkGrayishBlue
+    @apply text-[1.2rem] leading-[2rem] text-DarkGrayishBlue
   }
 
   .footerLink {

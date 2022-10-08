@@ -25,7 +25,7 @@ export default function About() {
                                 <h2 className='lg:text-[1.5rem] '>Track company-wide progress</h2>
                             </div>
 
-                            <p className='body text-left lg:pl-[128px]'> See how your day-to-day tasks fit into the wider vision. Go from
+                            <p className='body text-left lg:pl-[120px]'> See how your day-to-day tasks fit into the wider vision. Go from
                                 tracking progress at the milestone level all the way done to the
                                 smallest of details. Never lose sight of the bigger picture again.</p>
                         </div>
@@ -40,7 +40,7 @@ export default function About() {
                                 <h2 className='lg:text-[1.5rem] '>Advanced built-in reports</h2>
                             </div>
 
-                            <p className='body text-left lg:pl-[128px]'>Set internal delivery estimates and track progress toward company
+                            <p className='body text-left lg:pl-[120px]'>Set internal delivery estimates and track progress toward company
                                 goals. Our customisable dashboard helps you build out the reports
                                 you need to keep key stakeholders informed.</p>
                         </div>
@@ -56,7 +56,7 @@ export default function About() {
                                 <h2 className='lg:text-[1.5rem] '>Everything you need in one place</h2>
                             </div>
 
-                            <p className='body text-left lg:pl-[128px]'>Stop jumping from one service to another to communicate, store files,
+                            <p className='body text-left lg:pl-[120px]'>Stop jumping from one service to another to communicate, store files,
                                 track tasks and share documents. Manage offers an all-in-one team
                                 productivity solution.
                             </p>
