@@ -30,7 +30,12 @@ module.exports = {
       bold: 500,
       semibold: 700,
     },
-    extend: {},
+    
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('../src/img/bg-tablet-pattern.svg')",
+      }
+    },
   },
   plugins: [],
 }
